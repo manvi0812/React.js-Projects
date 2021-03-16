@@ -1,0 +1,35 @@
+.post-card {
+  border: 1px solid black;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30%;
+  margin-top: 6%;
+  padding: 10px;
+  /* margin: auto;
+   */
+}
+
+.image {
+  height: 250px;
+  display: block;
+  /* width: 100px; */
+  margin: auto;
+}
+
+.buttons {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.arrows {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 23px;
+}
+.arrows:hover {
+  background-color: rgb(156, 155, 155);
+}
